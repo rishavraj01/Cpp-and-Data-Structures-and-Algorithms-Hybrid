@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void swapValues(int *ptr1, int *ptr2) {
     int temp = *ptr1;
     *ptr1 = *ptr2;
@@ -10,7 +9,6 @@ void swapValues(int *ptr1, int *ptr2) {
 int main() {
     int num1 = 10;
     int num2 = 20;
-    
     int *ptr1 = &num1;
     int *ptr2 = &num2;
 
@@ -23,6 +21,5 @@ int main() {
     cout << "After swap: " << endl;
     cout << "num1 = " << num1 << endl;
     cout << "num2 = " << num2 << endl;
-
     return 0;
 }
